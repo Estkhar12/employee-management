@@ -1,0 +1,59 @@
+body{
+    background-color: #FFEEE6;
+}
+
+.profile{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10%;
+    padding: 30px; 
+}
+
+.input-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.input-box input{
+    outline: none;
+    border: solid 2px  gray;
+    border-radius: 5px;
+}
+.input-box select{
+    width: 495px;
+    height: 28px;
+    outline: none;
+    border: solid 2px  gray;
+    border-radius: 5px;
+}
+.btn button{
+    align-items: center;
+}
+
+.empList{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10%;
+    padding: 30px;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media (min-width: 792px) {
+    .register .form-wrapper {
+        max-width: 65rem;
+    }
+    .register .form-content .input_boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
